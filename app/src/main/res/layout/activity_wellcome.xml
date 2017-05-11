@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.areyen.mosqueapps1.WellcomeActivity">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        layout="@layout/app_bar"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="WELCOME MESSAGE"
+                    android:textAlignment="center"
+                    android:textColor="#005451"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#005451" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Dear Visitor,"
+                            android:textColor="#005252" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="I greet you with  Assalamu Alaikum (peace  be  unto you) and extend  to  you a warm welcome to the ICC website. Our  mission    is    to    serve    society    by disseminating  knowledge   of  Islamic   philosophy , faith, culture and traditions. Recently , the following spectacular international festivities  came  together starting with Christmas,New  Year , Eid-ul-Adha  and   the  New  Year of the Islamic  calendar  1428  Hijra  and  the first day of Muharram - all  these events of the   Gregorian   and   Islamic  calendar  are coming together. Actually  the  Christmas of  25 December was few days before Eid-ul-Adha, i.e. 30 December. Similarly, the  Gregorian  New  Year of 2007 is going to be very close  to  the  New  Year  of  the  Islamic calendar of 1428 Hijra this time."
+                             android:gravity="center"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="I, the Director General of the Islamic Cultural Centre and  The  London  Central  Mosque ,  would  like  to draw our attention more to  the  relations  between the two faiths , Christianity  and Islam , more to the Divine source of the two  faiths  and their message of love, tolerance, good relations ,  doing  good  to  other   people . We  have to  remember   these  are   the  real   messages   of   Islam ,   Christianity   and  Judaism  and  we   have to  establish  these  in  this world for  the  betterment  and peace in this global village"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" I am wishing  everybody belonging   to   all   faith communities  ever-lasting  happiness  in the coming year and  asking  everybody  to  try  to do his/her  best  for   better   society ,  relations and understanding so that we can have a very peaceful globe and peace emanates everywhere in the world. Global harmony is our goal."
+                            android:textColor="#000000"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Dr. Ahmad Al-Dubayan"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        layout="@layout/footer"
+        />
+
+</LinearLayout>

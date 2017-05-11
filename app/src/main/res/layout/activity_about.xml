@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.areyen.mosqueapps1.AboutActivity">
+
+    <include
+        android:layout_height="90dp"
+        android:layout_width="match_parent"
+        layout="@layout/app_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="About Us"
+                    android:textAllCaps="true"
+                    android:textColor="#005451"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#005451" />
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:layout_margin="10dp"
+                     android:gravity="center"
+                        android:text="The London  Central  Mosque  (also known as the Islamic Cultural Centre ( ICC ) or Regent's  Park  Mosque ) is a  mosque located near Regent's Park in London, United Kingdom. It was  designed  by  Sir  Frederick  Gibberd,  completed   in   1978  ,   and   has  a prominent golden dome. The main hall can  accommodate  over 5,000 worshippers, with women praying on a balcony over looking the hall. The  mosque holds a chandelier and a vast carpet, with very little furniture."
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                       android:gravity="center"
+                        android:layout_margin="10dp"
+                        android:text="The inside of the dome is decorated  with  broken shapes in the Islamic tradition. There is also a small bookshop and halal café on the premises. The mosque is joined to the Islamic Cultural Centre(ICC) which was officially opened by King George VI in 1944. [2]  The land was donated by George VI to the Muslim community of Britain in return for the donation of land in Cairo by King Farouk of Egypt and Sudan on which to build an Anglican cathedral."
+                        android:textColor="#000000"
+                        />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <include
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    layout="@layout/footer"
+    />
+
+
+</LinearLayout>
